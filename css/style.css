@@ -11692,7 +11692,7 @@ label.error {
   display: inline-block;
 }
 .social-icons li a i {
-  background-image: url(../images/icon-img.png);
+  background-image: url(../images/icon-img-harsh.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -11703,20 +11703,21 @@ label.error {
   background-position: 0 0;
 }
 .social-icons li a i.icon-instagram {
-  background-position: -58px 0;
+  background-position: -59px 0;
 }
 .social-icons li a i.icon-linkedin {
   background-position: -118px 0;
 }
-.social-icons li a i.icon-tumblr {
-  background-position: -247px 0;
+.social-icons li a i.icon-github {
+  background-position: -175px 0;
   width: 32px;
 }
-.social-icons li a i.icon-youtube {
-  background-position: -310px 0;
+.social-icons li a i.icon-email {
+  background-position: -235px 0;
+  width: 32px;
 }
-.social-icons li a i.icon-google-plus {
-  background-position: -359px 0;
+.social-icons li a i.icon-resume {
+  background-position: -300px 0;
 }
 
 .header-wrapper {
@@ -16461,7 +16462,7 @@ button.lar {
   }
 
   .top-header.style-one .avatar-img {
-    width: 320px;
+    width: 275px;
   }
 
   .blog-post .entry-meta-content, .blog-post .entry-content-bottom {
@@ -17165,21 +17166,20 @@ button.lar {
     background-position: -49px 0;
   }
 
-  .social-icons li a i.icon-google-plus {
-    background-position: -206px 0;
-  }
-
-  .social-icons li a i.icon-youtube {
-    background-position: -299px 0;
-  }
-
   .social-icons li a i.icon-linkedin {
     background-position: -98px 0;
   }
 
-  .social-icons li a i.icon-tumblr {
-    background-position: -255px 0;
-    width: 32px;
+  .social-icons li a i.icon-github {
+    background-position: -145px 0;
+  }
+
+  .social-icons li a i.icon-email {
+    background-position: -196px 0;
+  }
+
+  .social-icons li a i.icon-resume {
+    background-position: -245px 0;
   }
 
   .social-text .list-inline-item:not(:last-child) {
