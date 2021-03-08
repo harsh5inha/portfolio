@@ -22,7 +22,6 @@ $(document).ready(function() {
   
 });
 
-
 function typeWrite() {
   var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
