@@ -16470,10 +16470,10 @@ button.lar {
     padding-right: 50px;
   }
 
-  .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom {
+  /* .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom {
     padding-left: 150px;
     padding-right: 100px;
-  }
+  } */
 
   .blog-post .entry-date {
     font-size: 60px;
@@ -17186,10 +17186,10 @@ button.lar {
     margin-right: 15px;
   }
 
-  .blog-post.style-two .entry-content-bottom, .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom {
+  /* .blog-post.style-two .entry-content-bottom, .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom {
     padding-left: 50px;
     padding-right: 50px;
-  }
+  } */
 
   .blog-post.style-four .entry-meta-content {
     width: 85%;
@@ -17522,20 +17522,20 @@ button.lar {
     display: none;
   }
 
-  .blog-post .entry-date {
+  /* .blog-post .entry-date {
     position: relative;
     left: 0;
     margin-bottom: 5px;
-  }
+  } */
 
   .blog-post .entry-date span {
     left: 50px;
     right: auto;
   }
 
-  .blog-post.style-two .entry-content-bottom, .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom, .blog-post .entry-meta-content, .blog-post .entry-content-bottom {
-    padding-left: 0px;
-    padding-right: 0px;
+  .blog-post.style-two .entry-content-bottom, .blog-post.style-two .entry-meta-content, .blog-post .entry-content-bottom, .blog-post .entry-meta-content {
+    padding-left: 110px;
+    padding-right: 50px;
   }
 
   .blog-post.style-two .entry-meta, .blog-post .entry-content-bottom h5, .blog-post .entry-read-more, .blog-post .entry-meta {

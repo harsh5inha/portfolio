@@ -13,15 +13,8 @@
 
 @media (max-width: 767px) {
     #harvard-img, #facebook-img{
-        width: 50%;
-        margin-bottom: 50px;
-        padding-right: 0;
+        width: 70%;
+        padding-right: 0px;
     }
 }  
 
-@media (max-width: 580px) {
-    #harvard-img, #facebook-img{
-        width: 25%;
-        margin-bottom: 10px;
-    }
-}  
