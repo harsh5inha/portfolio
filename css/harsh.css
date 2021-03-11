@@ -10,6 +10,11 @@
 }
 
 
+.section-title {
+    text-align: center;
+}
+
+
 @media (max-width: 991px) {
     #harvard-img, #facebook-img, #tripadvisor-img, #logitech-img{
         width: 75%;
