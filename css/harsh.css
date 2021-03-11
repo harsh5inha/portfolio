@@ -11,14 +11,14 @@
 
 
 @media (max-width: 991px) {
-    #harvard-img, #facebook-img{
+    #harvard-img, #facebook-img, #tripadvisor-img, #logitech-img{
         width: 75%;
         padding-right: 10%;
     }
 }  
 
 @media (max-width: 767px) {
-    #harvard-img, #facebook-img{
+    #harvard-img, #facebook-img, #tripadvisor-img, #logitech-img{
         width: 70%;
         padding-right: 0px;
     }
