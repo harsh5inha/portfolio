@@ -22,8 +22,6 @@
     14. Fullpage wrapper
     15. Shop Page
     16. Responsive Section  */
-@import "./../vendor/owl-carousel/css/owl.carousel.min.css";
-@import "./../vendor/owl-carousel/css/owl.theme.default.css";
 .bg-gray {
   background-color: #f8f8f8;
 }
