@@ -1,12 +1,24 @@
 .footer {
-    text-align: right;
-    padding: 7px 30px 7px 0;
+    padding: 7px 30px 7px 30px;
     background-color: #f4f8fb;
 }
 
 .footer p {
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 0.4;
+    display: inline-block;
+}
+
+.footer p.copyright {
+    float: right;
+}
+
+.footer img {
+    width: 1%;
+}
+
+.footer img.resume {
+    margin-left: 15px;
 }
 
 
@@ -15,10 +27,53 @@
 }
 
 
+#last-section {
+    margin-bottom: 25px;
+}
+
+
+
+.caption-container #caption {
+    margin-bottom: 25px;
+}
+
+
+#exp-last, #edu-last {
+    margin-bottom: 125px;
+}
+
+
+
+@media (max-width: 1600px) {
+    .footer img {
+        width: 1.5%;
+    }
+} 
+
+
+
+@media (max-width: 1400px) {
+    .footer img {
+        width: 1.75%;
+    }
+} 
+
+
+@media (max-width: 1024px) {
+    .footer img {
+        width: 2%;
+    }
+} 
+
+
 @media (max-width: 991px) {
     #harvard-img, #facebook-img, #tripadvisor-img, #logitech-img{
         width: 75%;
         padding-right: 10%;
+    }
+
+    .footer img {
+        width: 2.5%;
     }
 }  
 
@@ -27,6 +82,114 @@
         width: 70%;
         padding-right: 0px;
     }
+
+    .footer {
+        padding: 7px 15px 7px 15px;
+        background-color: #f4f8fb;
+    }
+
+
+
 }  
 
 
+@media (max-width: 580px) {
+    .footer img {
+        width: 3%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    color: #f4f8fb;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
