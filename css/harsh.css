@@ -43,6 +43,49 @@
 }
 
 
+.slide-counter {
+    font-size: 10px; 
+    display: inline-block;
+}
+
+.top-hr {
+    margin-top: 0;
+}
+
+.bottom-hr {
+    margin-bottom: 75px;
+}
+
+
+.opening-info {
+    display:inline-block; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-weight: 700; 
+    font-family: Montserrat, sans-serif; 
+    padding: 0 15px 0 15px; 
+    font-size: 14px; 
+    font-style: italic;
+}
+
+.closing-info {
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-weight: 700; 
+    font-family: Montserrat, sans-serif; 
+    padding: 0 15px 0 15px; 
+    font-size: 20px; 
+    font-style: italic;
+    color: #999;
+}
+
+.closing-info:hover {
+    color: blue;
+}
+
+
+
+
 
 @media (max-width: 1600px) {
     .footer img {

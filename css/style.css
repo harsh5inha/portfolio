@@ -10014,7 +10014,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #777;
+  color: blue;
   text-decoration: none;
 }
 
@@ -12708,8 +12708,11 @@ label.error {
   font-weight: 500;
   color: #666;
 }
-.blog-post .entry-meta a:hover {
+/* .blog-post .entry-meta a:hover {
   color: #ff8a00;
+} */
+.blog-post .entry-meta a:hover {
+  color: blue;
 }
 .blog-post .entry-media {
   margin-top: 35px;
