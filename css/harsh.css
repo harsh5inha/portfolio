@@ -158,24 +158,13 @@
 
 
 
+/*-----------------------------------------------------------
+Right/Left Arrows in "Featured" Gallarey
+-------------------------------------------------------------*/
 
-* {
-    box-sizing: border-box;
-  }
-  
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
   }
   
   /* Next & previous buttons */
@@ -205,34 +194,4 @@
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    padding: 2px 16px;
-    color: #f4f8fb;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
   }
