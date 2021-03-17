@@ -52,13 +52,12 @@
     margin-top: 0;
 }
 
-.bottom-hr {
-    margin-bottom: 75px;
+.bottom-div {
+    margin-bottom: 50px;
 }
 
 
 .opening-info {
-    display:inline-block; 
     text-align: center; 
     margin-bottom: 10px; 
     font-weight: 700; 
@@ -80,7 +79,7 @@
 }
 
 .closing-info:hover {
-    color: blue;
+    color: #f44336;
 }
 
 
@@ -141,21 +140,6 @@
         width: 3%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*-----------------------------------------------------------

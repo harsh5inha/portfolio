@@ -1111,12 +1111,12 @@ a {
   color: #333;
   text-decoration: none;
   position: relative;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 
 a:focus,
 a:hover {
-  color: blue;
+  color: #f44336;
   text-decoration: none;
 }
 
@@ -1877,11 +1877,9 @@ li {
   font-weight: 500;
   color: #666;
 }
-/* .blog-post .entry-meta a:hover {
-  color: #ff8a00;
-} */
+
 .blog-post .entry-meta a:hover {
-  color: blue;
+  color: #f44336;
 }
 .blog-post .entry-media {
   margin-top: 35px;
