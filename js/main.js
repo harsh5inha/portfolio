@@ -35,7 +35,7 @@ function typeWrite() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 150 - Math.random() * 50;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -45,7 +45,7 @@ function typeWrite() {
     } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       this.loopNum++;
-      delta = 500;
+      delta = 100;
     }
 
     setTimeout(function() {
