@@ -45,7 +45,7 @@ function typeWrite() {
     } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       this.loopNum++;
-      delta = 750;
+      delta = 500;
     }
 
     setTimeout(function() {
