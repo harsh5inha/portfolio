@@ -2,7 +2,7 @@
 
 ## https://hsinha.io
 
-### Based off the "Cabe" Web Template
+Using NameCheap for hosting and Cloudflare "Full Encryption" SSL certificate.
 
 Not all files/images necessary for the packet bundle on live site.
 
@@ -22,3 +22,7 @@ Files not included in live site:
 1. Readme.md
 2. js/main.js
 3. css/style.css
+
+
+
+Based off the "Cabe" Web Template
