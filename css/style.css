@@ -391,6 +391,7 @@ p {
   font-weight: 700; 
   font-family: Montserrat, sans-serif; 
   padding: 0 15px 0 15px; 
+  margin-bottom: 10px;
   font-size: 20px; 
   font-style: italic;
 }
@@ -398,6 +399,8 @@ p {
 .adhoc-info {
   text-align: center; 
   font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .closing-info {
@@ -750,7 +753,7 @@ p {
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
     padding-left: 105px;
-    padding-right: 5;
+    padding-right: 0px;
   }
 
   .main-section .entry-content-bottom h5, .main-section .entry-read-more, .main-section .entry-meta {
