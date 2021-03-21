@@ -395,6 +395,11 @@ p {
   font-style: italic;
 }
 
+.adhoc-info {
+  text-align: center; 
+  font-size: 14px;
+}
+
 .closing-info {
   text-align: center; 
   margin-bottom: 10px; 
@@ -616,11 +621,6 @@ p {
     padding-right: 50px;
   }
 
-  .main-section .entry-content-bottom {
-    padding-left: 110px;
-    padding-right: 50px;
-  }
-
   .main-section .entry-title {
     font-size: 24px;
     line-height: 32px;
@@ -712,7 +712,7 @@ p {
   }
 
   .social-icons li a i.icon-resume {
-    background-position: -245px 0;
+    background-position: -248px 0;
   }
 
   .main-section .entry-content-bottom h5 {
@@ -749,8 +749,8 @@ p {
   }
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
-    padding-left: 110px;
-    padding-right: 0;
+    padding-left: 105px;
+    padding-right: 5;
   }
 
   .main-section .entry-content-bottom h5, .main-section .entry-read-more, .main-section .entry-meta {
@@ -767,6 +767,6 @@ p {
 }
 
 .main-section .entry-title {
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 32px;
 }
