@@ -768,7 +768,7 @@ p {
   }
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
-    padding-left: 105px;
+    padding-left: 110px;
     padding-right: 0px;
   }
 
@@ -786,15 +786,15 @@ p {
 }
 
 .main-section .entry-title {
-  font-size: 15.5px;
+  font-size: 16px;
   line-height: 32px;
 }
 
 }
 
 
-
-@media (max-width: 386px) {
+/* Breakpoint between my Galaxy S20+ and my iPhone 11 is around 375px */
+@media (max-width: 375px) {
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
     padding-left: 100px;
