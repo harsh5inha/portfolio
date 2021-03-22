@@ -301,7 +301,7 @@ p {
 }
 
 .location {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .geo-pin {
@@ -768,7 +768,7 @@ p {
   }
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
-    padding-left: 102.5px;
+    padding-left: 105px;
     padding-right: 0px;
   }
 
@@ -788,4 +788,26 @@ p {
 .main-section .entry-title {
   font-size: 15.5px;
   line-height: 32px;
+}
+
+}
+
+
+
+@media (max-width: 386px) {
+
+  .main-section .entry-content-bottom, .main-section .entry-meta-content {
+    padding-left: 100px;
+    padding-right: 0px;
+  }
+
+  .main-section .entry-content-bottom h5, .main-section .entry-read-more, .main-section .entry-meta {
+    font-size: 13.5px;
+    margin-left: 0;
+  }
+
+  .main-section .entry-title {
+  font-size: 13.5px;
+}
+
 }
