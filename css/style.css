@@ -793,8 +793,8 @@ p {
 }
 
 
-/* Breakpoint between my Galaxy S20+ and my iPhone 11 is around 375px */
-@media (max-width: 375px) {
+/* Breakpoint between my Galaxy S20+ and my iPhone 11 is around 381px */
+@media (max-width: 381px) {
 
   .main-section .entry-content-bottom, .main-section .entry-meta-content {
     padding-left: 100px;
